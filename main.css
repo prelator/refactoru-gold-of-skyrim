@@ -1,0 +1,62 @@
+body {
+	background-color: #684D3F;
+}
+
+header {
+	position: relative;
+	top: 0;
+	left: 0;
+	font-family: Garamond;
+	color: white;
+	background-color: black;
+	height: 50px;
+	width: 100%;
+	margin: 0;
+	padding: 10px 20px;
+	text-shadow: 2px 2px 20px #FCB614;
+}
+
+h1 {
+	font-family: "adobe-garamond-pro-1","adobe-garamond-pro-2",Georgia,"Times New Roman",Times,serif;
+	margin: 5px;
+	-webkit-font-smoothing: antialiased;
+	font-weight: normal;
+}
+
+header img {
+	float: left;
+	height: 100%;
+	margin: 0 5px;
+}
+
+.main-container {
+	width: 1024px;
+	height: 728px;
+	margin: 20px auto;
+	box-shadow: 5px 5px 5px;
+	background-color: black;
+	position: relative;
+}
+
+#map {
+	width: 1024px;
+	height: 728px;
+}
+
+#map:hover {
+	cursor: crosshair;
+}
+
+.marker {
+	position: absolute;
+	height: 50px;
+	z-index: 2;
+}
+
+.marker:hover {
+	cursor: pointer;
+} 
+
+
+
+
