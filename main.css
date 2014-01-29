@@ -13,7 +13,15 @@ header {
 	width: 100%;
 	margin: 0;
 	padding: 10px 20px;
-	text-shadow: 2px 2px 20px #FCB614;
+}
+
+.header-text {
+	display: none;
+	position: absolute;
+	display: inline-block;
+	top: 0px;
+	left: 300px;
+	margin-right: 20%;
 }
 
 h1 {
@@ -21,6 +29,16 @@ h1 {
 	margin: 5px;
 	-webkit-font-smoothing: antialiased;
 	font-weight: normal;
+	text-shadow: 2px 2px 20px #FCB614;
+}
+
+h4 {
+	font-family: "adobe-garamond-pro-1","adobe-garamond-pro-2",Georgia,"Times New Roman",Times,serif;
+	margin: 10px;
+}
+
+h5 {
+	margin: 5px 10px;
 }
 
 header img {
@@ -57,6 +75,89 @@ header img {
 	cursor: pointer;
 } 
 
+.popup-container {
+	display: none;
+	position: absolute;
+	top: 200px;
+	left: 350px;
+	width: 320px;
+	height: 200px;
+	background-color: white;
+	background-color: rgba(118,85,42,0.8);
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px;
+	z-index: 10;
+}
 
+.small {
+	top: 0;
+	left: 0;
+	width: 180px;
+	height: 100px;
+	background-color: rgb(226, 201, 170);
+	background-color: rgba(226, 201, 170, 0.7);
+	overflow: auto;
+	z-index: 3
+}
 
+.small p {
+	margin: 5px 10px;
+	font-size: 12px;
+}
 
+form {
+	margin: 10px 0 0 20px;
+}
+
+textarea {
+	width: 85%;
+	border-radius: 10px;
+	outline: none;
+	margin-bottom: 10px;
+	padding: 10px;
+	box-shadow: 2px 2px 5px inset;
+	background-color: rgb(226, 201, 170);
+	background-color: rgba(226, 201, 170, 0.8);
+}
+
+::-webkit-input-placeholder {
+    color: gray;
+}
+
+.green-button {
+	background-color: #83c41a;
+	height: 25px;
+	width: 70px;
+	border-radius: 40px;
+	border: 1px solid black;
+	outline: none;
+	font-family:Georgia;
+	font-size:12px;
+	font-weight:bold;
+	font-style:normal;
+	padding-bottom: 3px;
+	margin-left: 10px;
+}
+
+.green-button:hover {
+	background-color: #306108;
+}
+
+.red-button {
+	background-color: #c62d1f;
+	height: 25px;
+	width: 70px;
+	border-radius: 40px;
+	border: 1px solid black;
+	outline: none;
+	font-family:Georgia;
+	font-size:12px;
+	font-weight:bold;
+	font-style:normal;
+	padding-bottom: 3px;
+	margin-left: 10px;
+}
+
+.red-button:hover {
+	background-color: #810d05;
+}

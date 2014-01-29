@@ -11,22 +11,25 @@
     </head>
     <body>
         <header>
-            <img src="skyrim-logo.png" />
+            <img src="skyrim-logo.png">
             <h1>Gold of Skyrim</h1>
+            <p class="header-text">Click the map to place a marker to show where gold has been found, then enter a comment. Mouse-over the marker to view your comment. Double-click the marker to delete it.</p>
         </header>
         <div class="main-container" id="main-container">
             <img id="map" src="skyrim-map.png">
-           
-    
-
-
-
-
-
-
-
-        </div> <!-- End main container -->
-	    
+            <div class="popup-container" id="popup">                
+                <form id='comment-form'>
+                    <h4>Marker comment:</h4>   
+                    <textarea rows='5' id='enter-comment'placeholder='Enter your comment for this marker.'></textarea>
+                    <button type='submit' class='green-button' id='submit-button'>Submit</button>
+                    <button type='reset' class='red-button'>Reset</button>
+                </form>
+            </div>
+            <div class="popup-container small" id="comment0">
+                <h5>Comment:</h5>
+                <p>This is my comment. Here is some more text. Bla bla bla.</p>                    
+            </div>
+        </div> <!-- End main container -->          
 
         <!-- Scipts below here -->
 	    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
